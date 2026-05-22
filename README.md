@@ -147,7 +147,7 @@ DBA-Junior-Lab/
 ![Block](Screenshots/Maintence2.png)
 
 ### Limpieza automática de registros antiguos
-![Block](Screenshots/Delete1.png)
+![Block](Screenshots/Delete.png)
 ![Block](Screenshots/Delete2.png)
 ![Block](Screenshots/Delete3.png)
 

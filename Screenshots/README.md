@@ -1,7 +1,7 @@
 ## Capturas del proyecto
 
 ### SQL Server instalado
-![Database](Screenshots/SqlServer.png)
+![Database](Screenshots/sqlserver.png)
 
 ### Base de datos creada
 ![Database](Screenshots/DataBase.png)

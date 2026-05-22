@@ -1,35 +1,74 @@
 # DBA Junior Lab - SQL Server
 
-Laboratorio práctico de administración de bases de datos en SQL Server, desarrollado en un entorno virtualizado con Windows Server 2022.
+Laboratorio práctico de administración y monitoreo de bases de datos en SQL Server, desarrollado en un entorno virtualizado con Windows Server 2022.
 
-## Objetivo
+Proyecto orientado a demostrar habilidades reales, incluyendo automatización, seguridad, optimización de consultas, monitoreo y recuperación ante desastres.
 
-Simular tareas reales de un DBA Junior, incluyendo creación de bases de datos, seguridad, backups, restore, optimización, monitoreo y análisis de bloqueos.
+---
 
-## Tecnologías utilizadas
+# Objetivo del proyecto
+
+Simular tareas reales realizadas por un Administrador de Bases de Datos (DBA), aplicando buenas prácticas de administración, rendimiento, monitoreo y automatización en SQL Server.
+
+---
+
+# Tecnologías utilizadas
 
 - SQL Server 2025 Developer Edition
 - SQL Server Management Studio 22
 - Windows Server 2022
-- VirtualBox
+- Oracle VirtualBox
 - T-SQL
+- SQL Server Agent
 
-## Funcionalidades implementadas
+---
 
+# Funcionalidades implementadas
+
+## Administración de bases de datos
 - Creación de base de datos
 - Diseño de tablas relacionales
-- Inserción de datos de prueba
-- Backup completo
-- Restore ante pérdida de datos
-- Gestión de usuarios y roles
-- Usuario con permisos de solo lectura
-- Índices no agrupados
-- Execution Plans
-- Query Optimization
-- Monitoreo con DMV
-- Simulación y análisis de bloqueos
+- Inserción masiva de datos de prueba
+- Gestión de relaciones y claves foráneas
 
-## Estructura del proyecto
+## Seguridad
+- Creación de LOGIN y USER
+- Gestión de roles
+- Usuario con permisos restringidos
+- Pruebas de acceso y seguridad
+
+## Backup & Recovery
+- Backup completo automatizado
+- Simulación de error humano
+- Restore de base de datos
+- Validación de recuperación
+
+## Optimización y Performance
+- Creación de índices NonClustered
+- Índices con INCLUDE
+- Query Optimization
+- Execution Plans
+- STATISTICS IO y STATISTICS TIME
+
+## Monitoreo
+- Monitoreo de sesiones activas
+- DMV Monitoring
+- Monitoreo de consultas
+- Detección de blocking
+- Análisis de consumo de recursos
+
+## Automatización con SQL Server Agent
+- Jobs automáticos de backup
+- Jobs de mantenimiento
+- Actualización automática de estadísticas
+- Reorganización de índices
+- Cleanup automático de registros antiguos
+- Programación de tareas periódicas
+- Monitoreo de ejecución de jobs
+
+---
+
+# Estructura del proyecto
 
 ```text
 DBA-Junior-Lab/
@@ -42,7 +81,10 @@ DBA-Junior-Lab/
 │   ├── 05_Users_Roles.sql
 │   ├── 06_Index_Optimization.sql
 │   ├── 07_DMV_Monitoring.sql
-│   └── 08_Blocking_Test.sql
+│   ├── 08_Blocking_Test.sql
+│   ├── 09_SQLAgent_BackupJob.sql
+│   ├── 10_Maintenance_Job.sql
+│   └── 11_Cleanup_Job.sql
 │
 ├── Screenshots/
 └── README.md
@@ -61,7 +103,7 @@ DBA-Junior-Lab/
 ### Backup exitoso
 ![Backup](Screenshots/Backup.png)
 
-### Error Humano simulación
+### Simulación de desastre
 ![Backup](Screenshots/ErrorSimulation.png)
 
 ### Restore exitoso
@@ -89,4 +131,10 @@ DBA-Junior-Lab/
 ![Block](Screenshots/BlockingTest.png)
 ![Block](Screenshots/BlockingTestLoading.png)
 ![Block](Screenshots/BlockingTest2.png)
+
+### SQL Server Agent + Jobs automáticos
+![Block](Screenshots/BlockingTest.png)
+![Block](Screenshots/BlockingTestLoading.png)
+![Block](Screenshots/BlockingTest2.png)
+
 

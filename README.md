@@ -41,14 +41,11 @@ Simular tareas reales realizadas por un Administrador de Bases de Datos (DBA), a
 - Backup completo automatizado
 - Simulación de error humano
 - Restore de base de datos
-- Validación de recuperación
 
 ## Optimización y Performance
 - Creación de índices NonClustered
-- Índices con INCLUDE
 - Query Optimization
 - Execution Plans
-- STATISTICS IO y STATISTICS TIME
 
 ## Monitoreo
 - Monitoreo de sesiones activas

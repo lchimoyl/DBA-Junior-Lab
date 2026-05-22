@@ -134,13 +134,19 @@ DBA-Junior-Lab/
 
 ### SQL Server Agent + Jobs automáticos
 ![Block](Screenshots/AgentSQL.png)
+
+### Job automático de Backup
 ![Block](Screenshots/BackupAuto.png)
 ![Block](Screenshots/BackupAuto2.png)
 ![Block](Screenshots/BackupAuto3.png)
 ![Block](Screenshots/BackupAuto4.png)
 ![Block](Screenshots/BackupAuto5.png)
+
+### Job de mantenimiento automático
 ![Block](Screenshots/Maintence1.png)
 ![Block](Screenshots/Maintence2.png)
+
+### Limpieza automática de registros antiguos
 ![Block](Screenshots/Delete1.png)
 ![Block](Screenshots/Delete2.png)
 ![Block](Screenshots/Delete3.png)
